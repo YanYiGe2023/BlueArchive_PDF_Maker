@@ -6,5 +6,7 @@
   "students_pdf": "students.pdf",
   "dpi": 300,
   "margin": 80,
+  "add_contrast": true,
+  "contrast_factor": 1.2,
   "school_order": ["阿拜多斯", "圣三一", "格黑娜", "千年"]
 }
