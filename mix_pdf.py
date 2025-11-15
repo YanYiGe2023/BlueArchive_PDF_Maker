@@ -1,3 +1,4 @@
+import json
 import os
 import glob
 from PIL import Image
@@ -14,8 +15,8 @@ def create_pdf_from_pages(config_file="config.json"):
     except:
         config = {}
 
-    pages_folder = config.get("output_dir", "pages")
-    output_pdf = "final_schools_cards.pdf"
+    pages_folder = config.get("pages_folder")
+    output_pdf = "schools_cards.pdf"
 
     # 获取所有PNG文件并按数字顺序排序
     png_files = sorted(glob.glob(os.path.join(pages_folder, "*.png")))
