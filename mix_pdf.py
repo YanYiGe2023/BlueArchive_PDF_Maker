@@ -16,7 +16,7 @@ def create_pdf_from_pages(config_file="config.json"):
         config = {}
 
     pages_folder = config.get("pages_folder")
-    output_pdf = "schools_cards.pdf"
+    output_pdf = config.get("students_pdf")
 
     # 获取所有PNG文件并按数字顺序排序
     png_files = sorted(glob.glob(os.path.join(pages_folder, "*.png")))
