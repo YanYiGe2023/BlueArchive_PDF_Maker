@@ -1,0 +1,9 @@
+{
+  "font_path": "/Users/yanyige/Library/Fonts/Aa复古小猫画报集.ttf",
+  "cards_per_row": 3,
+  "cards_folder": "character_cards",
+  "pages_folder": "pages",
+  "dpi": 300,
+  "margin": 80,
+  "school_order": ["阿拜多斯", "圣三一", "格黑娜", "千年"]
+}
